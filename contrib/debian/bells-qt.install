@@ -1,0 +1,6 @@
+usr/local/bin/tenebrixcoin-qt usr/bin
+share/pixmaps/tenebrixcoin32.xpm usr/share/pixmaps
+share/pixmaps/tenebrixcoin16.xpm usr/share/pixmaps
+share/pixmaps/tenebrixcoin128.png usr/share/pixmaps
+debian/tenebrixcoin-qt.desktop usr/share/applications
+debian/tenebrixcoin-qt.protocol usr/share/kde4/services/

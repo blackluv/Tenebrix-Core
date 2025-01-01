@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=TenebrixCoin Core
+Comment=Connect to the TenebrixCoin P2P Network
+Comment[de]=Verbinde mit dem TenebrixCoin peer-to-peer Netzwerk
+Comment[fr]=TenebrixCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TenebrixCoin, eşten eşe kriptografik sanal para birimi
+Exec=tenebrixcoin-qt %u
+Terminal=false
+Type=Application
+Icon=tenebrixcoin128
+MimeType=x-scheme-handler/tenebrixcoin;
+Categories=Office;Finance;

@@ -1,0 +1,33 @@
+# /etc/conf.d/tenebrixcoind: config file for /etc/init.d/tenebrixcoind
+
+# Config file location
+#tenebrixcoind_CONFIGFILE="/etc/tenebrixcoin/tenebrixcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $tenebrixcoind_USER)
+#tenebrixcoind_PIDDIR="/var/run/tenebrixcoind"
+
+# What filename to give the pidfile
+#tenebrixcoind_PIDFILE="${tenebrixcoind_PIDDIR}/tenebrixcoind.pid"
+
+# Where to write tenebrixcoind data (be mindful that the blockchain is large)
+#tenebrixcoind_DATADIR="/var/lib/tenebrixcoind"
+
+# User and group to own tenebrixcoind process
+#tenebrixcoind_USER="tenebrixcoin"
+#tenebrixcoind_GROUP="tenebrixcoin"
+
+# Path to tenebrixcoind executable
+#tenebrixcoind_BIN="/usr/bin/tenebrixcoind"
+
+# Nice value to run tenebrixcoind under
+#tenebrixcoind_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+tenebrixcoind_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for tenebrixcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+tenebrixcoind_SIGTERM_TIMEOUT=60
